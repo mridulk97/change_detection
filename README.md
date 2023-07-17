@@ -1,6 +1,6 @@
 # [Remote sensing image change detection](https://sites.google.com/vt.edu/image-change-detection)
 
-Harish Babu Manogaran, Mridul Khurana and Shri Sarvesh Venkatachala Moorthy
+Mridul Khruana, Harish Babu Manogaran, Mridul Khurana and Shri Sarvesh Venkatachala Moorthy
 
 Fall 2022 ECE 4554/5554 Computer Vision: Course Project - Virginia Tech
 
