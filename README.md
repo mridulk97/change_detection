@@ -1,6 +1,6 @@
 # [Remote sensing image change detection](https://sites.google.com/vt.edu/image-change-detection)
 
-Mridul Khruana, Harish Babu Manogaran, Mridul Khurana and Shri Sarvesh Venkatachala Moorthy
+Mridul Khurana, Harish Babu Manogaran and Shri Sarvesh Venkatachala Moorthy
 
 Fall 2022 ECE 4554/5554 Computer Vision: Course Project - Virginia Tech
 
@@ -57,7 +57,7 @@ Note: You can get the `data_split.pkl` and `image_full_paths.txt` in the `second
 
 ## Example Usage
 
-Disclaimer - Don't forget to update the `path_to_dataset` in the relevant config files.
+Disclaimer - Please update the `path_to_dataset` in the relevant config files.
 
 ### Training:
 
@@ -66,9 +66,9 @@ Disclaimer - Don't forget to update the `path_to_dataset` in the relevant config
 The codebase is heavily tied in with [Pytorch Lightning](https://www.pytorchlightning.ai/) and [Weights and Biases](https://wandb.ai/r). You may find the following flags helpful:
 
 - `--no_logging` (disables logging to weights and biases)
-- `--quick_prototype` (runs 1 epoch of train, val and test cycle with 2 batches)
+- `--quick_prototype` (runs 1 epoch of train, val, and test cycle with 2 batches)
 - `--resume_from_checkpoint <path>`
-- `--load_weights_from <path>` (initialises the model with these weights)
+- `--load_weights_from <path>` (initializes the model with these weights)
 - `--wandb_id <id>` (for weights and biases)
 - `--experiment_name <name>` (for weights and biases)
 
@@ -84,4 +84,4 @@ We added some sample images to  `sample_images` folder which can be viewed and c
 For simplicity you can run the `demo.ipynb` notebook directly on colab
 
 ## References 
- We have builded upon the code of the original paper [The Change You Want to See](https://arxiv.org/pdf/2209.14341.pdf) for which the code can be found [here](https://github.com/ragavsachdeva/The-Change-You-Want-to-See)
+ We have built upon the code of the original paper [The Change You Want to See](https://arxiv.org/pdf/2209.14341.pdf) for which the code can be found [here](https://github.com/ragavsachdeva/The-Change-You-Want-to-See)
