@@ -4,6 +4,8 @@ Mridul Khurana, Harish Babu Manogaran and Shri Sarvesh Venkatachala Moorthy
 
 Fall 2022 ECE 4554/5554 Computer Vision: Course Project - Virginia Tech
 
+Report - [Remote Sensing Image Change Detection](https://sites.google.com/vt.edu/image-change-detection)
+
 ## Datasets
 
 ### SECOND Dataset
