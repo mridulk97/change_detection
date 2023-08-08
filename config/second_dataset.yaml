@@ -1,0 +1,35 @@
+encoder: resnet18
+attention: coam
+coam_layer_data: [3, [512, 256, 128], [128, 64, 32]]
+lr: 0.0001
+weight_decay: 0.0005
+batch_size: 16
+test_batch_size: 16
+num_dataloader_workers: 8
+classes: 2
+model_save_path: /content/gdrive/Shareddrives/CV Project/The-Change-You-Want-to-See-Segmentation-v1/checkpoints
+datasets:
+  train_dataset:
+    name: second_train
+    class: SecondDataset
+    args:
+      path_to_dataset: /content/sample_data/second_dataset/SECOND_train_set
+      split: "train"
+      method: "segmentation"
+      image_size: 256
+  val_dataset:
+    name: second_val
+    class: SecondDataset
+    args:
+      path_to_dataset: /content/sample_data/second_dataset/SECOND_train_set
+      split: "val"
+      method: "segmentation"
+      image_size: 256
+  test_datasets:
+    - name: second_test
+      class: SecondDataset
+      args:
+        path_to_dataset: /content/sample_data/second_dataset/test
+        split: "test"
+        method: "segmentation"
+        image_size: 256
